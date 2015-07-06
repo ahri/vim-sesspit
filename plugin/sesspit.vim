@@ -3,10 +3,10 @@
 " Maintainer:   Adam Piper <adam@ahri.net>
 " Version:      0.1.0
 
-if exists("s:loaded_sesspit") || v:version < 700 || &cp
+if exists("s:loaded_sesspit") || v:version < 700 || &compatible
   finish
 endif
-" let s:loaded_sesspit = 1
+let s:loaded_sesspit = 1
 let s:active = 0
 
 " Sensible defaults
